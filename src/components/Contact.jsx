@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { useEffect } from "react";
 import gsap from "gsap";
 
@@ -70,6 +71,7 @@ const Contact = () => {
                         href="https://www.linkedin.com/in/tusharupadhya/"
                         target="_blank"
                         className="text-white font-Glimer-Medium  hover:text-black"
+                        rel="noreferrer"
                     >
                         Linkedin
                     </a>{" "}
@@ -79,31 +81,32 @@ const Contact = () => {
                         href="https://medium.com/@upadhyaytushar552"
                         target="_blank"
                         className="text-white font-Glimer-Medium  hover:text-black"
+                        rel="noreferrer"
                     >
                         {" "}
                         Medium
                     </a>
-                    .
                 </p>
 
-                <a href={resume} download={resume}>
-                    <button className="text-white rounded-full lg:w-fit transition duration-300 ease-in-out font-Glimer-Bold font-medium border-[1px] focus:outline-none flex items-center justify-center border-white/50 py-3 px-6 text-lg xl:text-xl 2xl:text-2xl my-10 w-full hover:bg-black hover:text-white ">
-                        <img src={cv} className="mr-2 h-8 w-8 " /> Download
-                        Resume
+                <a href={resume} download={resume} class="inline-block">
+                    <button class="text-white rounded-full lg:w-fit font-Glimer-Bold font-medium border-[1px] focus:outline-none flex items-center justify-center border-white/50 py-3 px-6 text-lg xl:text-xl 2xl:text-2xl my-10 w-full hover:bg-black hover:text-white duration-150">
+                        <img src={cv} class="mr-2 h-8 w-8" alt="CV Icon" />
+                        Download Resume
                     </button>
                 </a>
             </div>
 
-            <div className="flex flex-col py-2 mb-5 w-full space-y-6 items-center justify-center">
+            <div className="flex flex-col gap-y-6 mb-5 w-full items-center justify-center">
                 <div className="divide-x divide-solid grid grid-cols-4 w-full">
                     <a
                         href="https://www.linkedin.com/in/tushar-upadhyay-54029b135/"
                         target="_blank"
                         className="flex items-center justify-center flex-col text-lg text-white"
+                        rel="noreferrer"
                     >
                         <img
                             src={linkedin}
-                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200  ease-in-out text-white/90 hover:text-white"
+                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
                         />
                     </a>
 
@@ -111,10 +114,11 @@ const Contact = () => {
                         href="https://github.com/tushar-upadhya"
                         target="_blank"
                         className="flex items-center justify-center flex-col text-lg text-white"
+                        rel="noreferrer"
                     >
                         <img
                             src={github}
-                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200  ease-in-out text-white/90 hover:text-white"
+                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
                         />
                     </a>
 
@@ -122,20 +126,22 @@ const Contact = () => {
                         href="https://medium.com/@upadhyaytushar552"
                         target="_blank"
                         className="flex items-center justify-center flex-col text-lg text-white"
+                        rel="noreferrer"
                     >
                         <img
                             src={medium}
-                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200  ease-in-out text-white/90 hover:text-white"
+                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
                         />
                     </a>
                     <a
                         href="https://medium.com/@upadhyaytushar552"
                         target="_blank"
                         className="flex items-center justify-center flex-col text-lg text-white"
+                        rel="noreferrer"
                     >
                         <img
                             src={gmail}
-                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200  ease-in-out text-white/90 hover:text-white"
+                            className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
                         />
                     </a>
                 </div>
