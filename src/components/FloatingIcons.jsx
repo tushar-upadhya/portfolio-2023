@@ -13,6 +13,7 @@ const FloatingIcons = () => {
                 href="https://leetcode.com/_tusharupadhyay/"
                 className="social"
                 target="_blank"
+                title="leetcode"
             >
                 <motion.span
                     animate={{ opacity: 1, scale: 1 }}
@@ -56,6 +57,7 @@ const FloatingIcons = () => {
                 href="https://leetcode.com/_tusharupadhyay/"
                 className="social"
                 target="_blank"
+                title="github"
             >
                 <motion.span
                     animate={{ opacity: 1, scale: 1 }}
