@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import { useEffect } from "react";
 import gsap from "gsap";
 
@@ -10,7 +9,7 @@ import cv from "../assets/images/icon/pdf.png";
 
 import resume from "../assets/resume/resume.pdf";
 
-const Contact = () => {
+const Footer = () => {
     useEffect(() => {
         const textContainer = document.querySelector(".text");
         const heading = textContainer.children[0];
@@ -21,7 +20,7 @@ const Contact = () => {
             const tl = gsap
                 .timeline({
                     scrollTrigger: {
-                        trigger: "#contact-section",
+                        trigger: "#Footer-section",
                         start: "top 10%",
                         end: "top top",
                         toggleActions: "play none resume pause",
@@ -150,4 +149,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Footer;
