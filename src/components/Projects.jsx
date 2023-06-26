@@ -5,7 +5,6 @@ import ecom from "../assets/images/projects/e-com.png";
 import pet from "../assets/images/projects/pet.png";
 import mi from "../assets/images/projects/mi.png";
 import youtube from "../assets/images/projects/youtube.png";
-import resto from "../assets/images/projects/resto.png";
 
 import live from "../assets/images/icon/live.svg";
 import github from "../assets/images/icon/github.png";
@@ -117,12 +116,12 @@ const Projects = () => {
                 Featured Projects
             </h1>
             <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30">
-                {/* resto */}
+                {/* E-COM */}
 
                 <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
                         <img
-                            src={resto}
+                            src={ecom}
                             alt="project image"
                             className="absolute w-full object-cover h-full img"
                         />
@@ -130,24 +129,24 @@ const Projects = () => {
 
                     <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
                         <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
-                            <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden ">
-                                <div className="content-line-inner">Resto</div>
+                            <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden  ">
+                                <div className="content-line-inner">E-COM</div>
                             </div>
                         </h1>
                         <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
-                            Web app should be optimized for seamless viewing on
-                            desktops, tablets, and mobile devices.
+                            E-commerce website, Payment gateway and
+                            user-friendly shopping experience.
                         </p>
                         <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
                             <div className="github-btn">
                                 <a
                                     className="icon "
                                     target="_blank"
-                                    href="https://github.com/tushar-upadhya/resto "
+                                    href="https://github.com/tushar-upadhya/e-com-full"
                                 >
                                     <img
                                         src={github}
-                                        className="lg:h-12 lg:w-12 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out "
+                                        className="lg:h-12 lg:w-12 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out"
                                     />
                                 </a>
                             </div>
@@ -155,12 +154,12 @@ const Projects = () => {
                                 <a
                                     className="icon"
                                     target="_blank"
-                                    href="https://resto-zeta.vercel.app/"
+                                    href="https://bummer-tusharupadhyay.vercel.app/"
                                 >
                                     <img
                                         src={live}
                                         alt="live image"
-                                        className="link lg:h-12 lg:w-12 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out"
+                                        className="link lg:h-12 lg:w-12  2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out"
                                     />
                                 </a>
                             </div>
@@ -202,7 +201,7 @@ const Projects = () => {
                                 <a
                                     className="icon"
                                     target="_blank"
-                                    href="https://resume-builder-kappa-neon.vercel.app/"
+                                    href="https://resumebuilder-tusharupadhyay.vercel.app/"
                                 >
                                     <img
                                         src={live}
@@ -220,57 +219,6 @@ const Projects = () => {
                             alt="project image"
                             className="absolute w-full object-cover h-full img"
                         />
-                    </div>
-                </div>
-
-                {/* E-COM */}
-
-                <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
-                    <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
-                        <img
-                            src={ecom}
-                            alt="project image"
-                            className="absolute w-full object-cover h-full img"
-                        />
-                    </div>
-
-                    <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
-                        <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
-                            <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden  ">
-                                <div className="content-line-inner">E-COM</div>
-                            </div>
-                        </h1>
-                        <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
-                            E-commerce website, providing a dynamic and
-                            user-friendly shopping experience.
-                        </p>
-                        <div className="btn-row flex justify-start space-x-6 items-center lg:justify-end">
-                            <div className="github-btn">
-                                <a
-                                    className="icon "
-                                    target="_blank"
-                                    href="https://github.com/tushar-upadhya/e-com-api"
-                                >
-                                    <img
-                                        src={github}
-                                        className="lg:h-12 lg:w-12 2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out"
-                                    />
-                                </a>
-                            </div>
-                            <div className="liveDemo-btn">
-                                <a
-                                    className="icon"
-                                    target="_blank"
-                                    href="https://e-com-api-beige.vercel.app/"
-                                >
-                                    <img
-                                        src={live}
-                                        alt="live image"
-                                        className="link lg:h-12 lg:w-12  2xl:h-9 2xl:w-9 vvs:h-6 vvs:w-6 sm:w-7 sm:h-7 h-5 w-5 hover:-translate-y-1 transition duration-200  ease-in-out"
-                                    />
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
 

@@ -11,6 +11,7 @@ import git from "../assets/images/techstack/git.jpg";
 import github from "../assets/images/techstack/github.png";
 import npm from "../assets/images/techstack/npm.png";
 import thunder from "../assets/images/techstack/thunderCilent.png";
+import typescript from "../assets/images/techstack/typescript.png";
 
 const TechStack = () => {
     return (
@@ -56,7 +57,7 @@ const TechStack = () => {
             <img
                 src={css}
                 alt="tech"
-                className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24 lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:right-[380px] 2xl:top-[520px] 1xl:right-[390px] 1xl:top-[550px] 1/2xl:right-[380px] 1/2xl:top-[570px] xl:right-[380px] xl:top-[570px] lg:right-[320px] lg:top-[520px] md:right-[220px] md:top-[570px] sm:right-[250px] sm:top-[570px] vvs:right-[50px] vvs:top-[570px] right-[50px] top-[520px] opacity-1 rotate-[-300deg]"
+                className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24 lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:right-[370px] 2xl:top-[520px] 1xl:right-[380px] 1xl:top-[550px] 1/2xl:right-[370px] 1/2xl:top-[570px] xl:right-[370px] xl:top-[570px] lg:right-[310px] lg:top-[520px] md:right-[210px] md:top-[570px] sm:right-[240px] sm:top-[570px] vvs:right-[30px] vvs:top-[570px] right-[30px] top-[520px] opacity-1 rotate-[-300deg]"
             />
 
             <img
@@ -69,6 +70,12 @@ const TechStack = () => {
                 alt="tech"
                 className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24  lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:right-[620px] 2xl:top-[350px]  xl:right-[520px] xl:top-[350px] lg:right-[400px] lg:top-[250px] md:right-[280px] md:top-[300px] sm:right-[280px] sm:top-[300px] vvs:right-[80px] vvs:top-[200px] right-[80px] top-[220px] opacity-1 rotate-[-48deg]"
             />
+            <img
+                src={typescript}
+                alt="tech"
+                className="tech 2xl:h-28 2xl:w-28 xl:h-24 xl:w-24 lg:h-20 lg:w-20 md:h-20 md:w-20 sm:h-16 sm:w-16 vvs:h-14 vvs:w-14 w-12 h-12 absolute 2xl:left-[660px] 2xl:top-[320px] xl:left-[560px] xl:top-[320px] lg:left-[440px] lg:top-[220px] md:left-[320px] md:top-[270px] sm:left-[320px] sm:top-[270px] vvs:left-[120px] vvs:top-[180px] left-[120px] top-[200px] opacity-1 rotate-[-48deg]"
+            />
+
             <img
                 src={sass}
                 alt="tech"
