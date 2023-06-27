@@ -54,7 +54,7 @@ const FloatingIcons = () => {
             {/* GITHUB */}
 
             <a
-                href="https://leetcode.com/_tusharupadhyay/"
+                href="https://github.com/tushar-upadhya"
                 className="social"
                 target="_blank"
                 title="github"
