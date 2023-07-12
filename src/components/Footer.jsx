@@ -7,7 +7,7 @@ import medium from "../assets/images/icon/medium-logo.png";
 import gmail from "../assets/images/icon/mail.png";
 import cv from "../assets/images/icon/pdf.png";
 
-import resume from "../assets/resume/resume.pdf";
+import resume from "../assets/resume/tushar_upadhyay_resume.pdf";
 
 const Footer = () => {
     useEffect(() => {
@@ -74,8 +74,8 @@ const Footer = () => {
                     >
                         Linkedin
                     </a>{" "}
-                    you can stay in touch with me on . Sometimes I blog about
-                    Technologies on
+                    you can stay in touch with me on And I will also post new
+                    articles biweekly (hopefully) on
                     <a
                         href="https://medium.com/@upadhyaytushar552"
                         target="_blank"
