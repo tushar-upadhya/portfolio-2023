@@ -144,7 +144,7 @@ const Projects = () => {
                                 <a
                                     className="icon "
                                     target="_blank"
-                                    href="https://github.com/tushar-upadhya/e-com-full"
+                                    href="https://github.com/tushar-upadhya/admin"
                                 >
                                     <img
                                         src={github}
@@ -156,7 +156,7 @@ const Projects = () => {
                                 <a
                                     className="icon"
                                     target="_blank"
-                                    href="https://bummer-tusharupadhyay.vercel.app/"
+                                    href="https://admin-tusharupadhyay.vercel.app/"
                                 >
                                     <img
                                         src={live}
