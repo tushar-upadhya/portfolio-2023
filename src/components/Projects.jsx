@@ -117,7 +117,7 @@ const Projects = () => {
             <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30">
                 {/* ADMIN */}
 
-                <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
+                {/* <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
                         <img
                             src={admin}
@@ -167,7 +167,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* VIDEO CALL */}
 
@@ -224,7 +224,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* E-COM */}
+                {/* BUMMER */}
 
                 <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
@@ -238,9 +238,7 @@ const Projects = () => {
                     <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3">
                         <h1 className="hidden-text cursor-default font-Glimer-Bold font-bold lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
                             <div className="content-line flex lg:justify-end items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden ">
-                                <div className="content-line-inner">
-                                    E - Com
-                                </div>
+                                <div className="content-line-inner">Bummer</div>
                             </div>
                         </h1>
                         <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl sm:text-xl 2xl:text-3xl vvs:text-base text-sm lg:text-right">
