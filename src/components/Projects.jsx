@@ -117,7 +117,7 @@ const Projects = () => {
             <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30">
                 {/* ADMIN */}
 
-                {/* <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
+                <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
                         <img
                             src={admin}
@@ -167,7 +167,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 {/* VIDEO CALL */}
 
