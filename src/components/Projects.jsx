@@ -171,7 +171,7 @@ const Projects = () => {
 
                 {/* VIDEO CALL */}
 
-                <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
+                {/* <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
                         <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
                             <div className="content-line flex items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden ">
@@ -222,7 +222,7 @@ const Projects = () => {
                             className="absolute w-full object-cover h-full img"
                         />
                     </div>
-                </div>
+                </div> */}
 
                 {/* BUMMER */}
 
