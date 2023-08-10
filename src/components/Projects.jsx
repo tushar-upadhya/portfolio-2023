@@ -115,9 +115,9 @@ const Projects = () => {
                 Featured Projects
             </h1>
             <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30">
-                {/* ADMIN */}
+                {/* */}
 
-                <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
+                {/* <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
                         <img
                             src={admin}
@@ -167,22 +167,23 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                {/* VIDEO CALL */}
+                {/* ADMIN */}
 
-                {/* <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
+                <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
                     <div className="text-container text-white lg:space-y-4 space-y-2 md:space-y-3 sm:space-y-3 ">
                         <h1 className="hidden-text font-bold font-Glimer-Bold cursor-default lg:text-4xl text-2xl sm:text-3xl 2xl:text-5xl lg:mt-0 mt-5">
                             <div className="content-line flex items-center m-0 lg:h-[52px] 2xl:h-[60px] overflow-hidden ">
                                 <div className="content-line-inner">
-                                    CHATVID
+                                    Admin DashBoard
                                 </div>
                             </div>
                         </h1>
 
                         <p className="font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl  sm:text-xl 2xl:text-3xl vvs:text-base text-sm">
-                            CHATVID for real-time audio and video communication.
+                            An admin panel is focused on managing and updating a
+                            website or application.{" "}
                         </p>
 
                         <div className="btn-row flex justify-start space-x-6 items-center">
@@ -190,7 +191,7 @@ const Projects = () => {
                                 <a
                                     className="icon "
                                     target="_blank"
-                                    href="https://github.com/tushar-upadhya/e-com-full"
+                                    href="https://github.com/tushar-upadhya/admin"
                                 >
                                     <img
                                         src={github}
@@ -203,7 +204,7 @@ const Projects = () => {
                                 <a
                                     className="icon"
                                     target="_blank"
-                                    href="https://bummer-tusharupadhyay.vercel.app/"
+                                    href="https://admin-tusharupadhyay.vercel.app/dashboard"
                                 >
                                     <img
                                         src={live}
@@ -217,12 +218,12 @@ const Projects = () => {
 
                     <div className="lg:h-[500px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
                         <img
-                            src={video}
+                            src={admin}
                             alt="project image"
                             className="absolute w-full object-cover h-full img"
                         />
                     </div>
-                </div> */}
+                </div>
 
                 {/* BUMMER */}
 
