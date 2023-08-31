@@ -7,8 +7,11 @@ function App() {
     return (
         <>
             <Hero />
+
             <Projects />
+
             <TechStack />
+
             <Footer />
         </>
     );
