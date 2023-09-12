@@ -13,5 +13,6 @@
         "Resto",
         "videcall",
         "webapps"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }

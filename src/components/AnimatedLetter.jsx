@@ -5,14 +5,14 @@ const banner = {
         transition: {
             delayChildren: 1,
             staggerChildren: 0.1,
-        },
+        }, 
     },
-};
+}
 
 const letterAnimation = {
     initial: {
         y: 100,
-        opacity: 0,
+        opacity: 0,b
     },
     animate: {
         y: 0,
@@ -31,7 +31,7 @@ const AnimatedLetters = ({ AnimatedLetter }) => {
                 {AnimatedLetter.map((letter, index) => (
                     <motion.span
                         key={index}
-                        className="inline-block z-30 "
+                        className="inline-block z-30"
                         variants={letterAnimation}
                     >
                         {letter}&nbsp;
