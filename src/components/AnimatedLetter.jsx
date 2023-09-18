@@ -19,14 +19,14 @@ const letterAnimation = {
         opacity: 1,
         transition: {
             ease: [0.6, 0.01, -0.05, 0.95],
-            duration: 1,
+            duration: 1, 
         },
     },
 };
 
 const AnimatedLetters = ({ AnimatedLetter }) => {
     return (
-        <>
+        <> 
             <motion.span variants={banner} initial="initial" animate="animate">
                 {AnimatedLetter.map((letter, index) => (
                     <motion.span
