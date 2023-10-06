@@ -113,7 +113,7 @@ const Projects = () => {
       <h1 className="text-white/70 font-Glimer-Outlined font-semibold z-40 lg:mb-32 mb-20 vvs:text-[4rem] sm:text-[5.2rem] md:text-[6.4rem] lg:text-[7.5rem] xl:text-[9.2rem] 2xl:text-[10.8rem]  text-[3.5rem] leading-[3.5rem] sm:leading-[5.5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[9rem] 2xl:leading-[10rem]">
         Featured Projects
       </h1>
-      <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30">
+      <div className="sm:space-y-40 space-y-32 xl:space-y-[35vh] z-30 ">
         {/* */}
 
         {/* <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
@@ -326,7 +326,7 @@ const Projects = () => {
 
         {/* MI Store CLONE */}
 
-        {/* <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
+        <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
           <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
             <img
               src={mi}
@@ -378,7 +378,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* youtube CLONE */}
 
