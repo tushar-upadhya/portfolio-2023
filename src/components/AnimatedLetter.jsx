@@ -24,14 +24,14 @@ const letterAnimation = {
   },
 };
 
-const AnimatedLetters = ({ AnimatedLetter }) => {
+const AnimatedLetters = ({ letters }) => {
   return (
     <>
       <motion.span variants={banner} initial="initial" animate="animate">
-        {AnimatedLetter.map((letter, index) => (
+        {letters.map((letter, index) => (
           <motion.span
             key={index}
-            className="inline-block z-30"
+            className="inline-block z-30 "
             variants={letterAnimation}
           >
             {letter}&nbsp;
