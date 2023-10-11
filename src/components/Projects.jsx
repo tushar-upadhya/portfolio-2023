@@ -6,7 +6,7 @@ import youtube from "../assets/images/projects/youtube.png";
 import admin from "../assets/images/projects/admin.png";
 import prm from "../assets/images/projects/readme.png";
 
-import live from "../assets/images/icon/live.svg";
+import live from "../assets/images/icon/live2.png";
 import github from "../assets/images/icon/github.png";
 
 import gsap from "gsap";
