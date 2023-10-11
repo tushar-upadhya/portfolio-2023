@@ -69,27 +69,30 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/tusharupadhya/"
             target="_blank"
-            className="text-white font-Glimer-Medium  hover:text-black"
+            className="text-white font-Glimer-Medium  hover:underline"
             rel="noreferrer"
           >
             Linkedin
           </a>{" "}
           you can stay in touch with me on And I will also post new articles
-          biweekly (hopefully) on
+          biweekly (hopefully) on{" "}
           <a
             href="https://medium.com/@upadhyaytushar552"
             target="_blank"
-            className="text-white font-Glimer-Medium  hover:text-black"
+            className="text-white font-Glimer-Medium  hover:underline"
             rel="noreferrer"
           >
-            {" "}
             Medium
           </a>
         </p>
 
-        <a href={resume} download={resume} class="inline-block">
-          <button class="text-white rounded-full lg:w-fit font-Glimer-Bold font-medium border-[1px] focus:outline-none flex items-center justify-center border-white/50 py-3 px-6 text-lg xl:text-xl 2xl:text-2xl my-10 w-full hover:bg-black hover:text-white duration-150">
-            <img src={cv} class="mr-2 h-8 w-8" alt="CV Icon" />
+        <a href={resume} download={resume} class="inline-block ">
+          <button class="text-white rounded-full lg:w-fit font-Glimer-Bold font-medium border-[1px] focus:outline-none flex items-center justify-center  border-white/50 py-3 px-6 text-lg xl:text-xl 2xl:text-2xl my-10 w-full ">
+            <img
+              src={cv}
+              class="mr-2 h-8 w-8 hover:-translate-y-1 transition duration-200 ease-in-out"
+              alt="CV Icon"
+            />
             Download Resume
           </button>
         </a>
