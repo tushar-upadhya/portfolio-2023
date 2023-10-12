@@ -2,8 +2,6 @@ import { useEffect } from "react";
 
 import ecom from "../assets/images/projects/e-com.png";
 import mi from "../assets/images/projects/mi.png";
-import youtube from "../assets/images/projects/youtube.png";
-import admin from "../assets/images/projects/admin.png";
 import prm from "../assets/images/projects/readme.png";
 import beat from "../assets/images/projects/beat-x.png";
 
