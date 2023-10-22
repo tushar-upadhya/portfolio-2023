@@ -74,7 +74,7 @@ const Footer = () => {
           >
             Linkedin
           </a>{" "}
-          you can stay in touch with me on And I will also post new articles
+          {/* you can stay in touch with me on And I will also post new articles
           biweekly (hopefully) on{" "}
           <a
             href="https://medium.com/@upadhyaytushar552"
@@ -83,7 +83,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             Medium
-          </a>
+          </a> */}
         </p>
 
         <a href={resume} download={resume} class="inline-block ">
@@ -124,7 +124,7 @@ const Footer = () => {
             />
           </a>
 
-          <a
+          {/* <a
             href="https://medium.com/@upadhyaytushar552"
             target="_blank"
             className="flex items-center justify-center flex-col text-lg text-white"
@@ -134,9 +134,9 @@ const Footer = () => {
               src={medium}
               className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
             />
-          </a>
+          </a> */}
           <a
-            href="https://medium.com/@upadhyaytushar552"
+            href="mailto:tusharupadhyay691@gmail.com"
             target="_blank"
             className="flex items-center justify-center flex-col text-lg text-white"
             rel="noreferrer"
