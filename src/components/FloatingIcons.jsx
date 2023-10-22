@@ -3,7 +3,7 @@ import linkedin from "../assets/images/linkedin.svg";
 import email from "../assets/images/email.png";
 
 import { motion } from "framer-motion";
-
+//
 const FloatingIcons = () => {
   return (
     <div className="z-[10] flex justify-between w-full items-center my-14">
