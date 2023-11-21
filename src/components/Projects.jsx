@@ -217,7 +217,7 @@ const Projects = () => {
 
         {/* Beat - x */}
 
-        <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
+        {/* <div className="container lg:space-x-2 flex flex-col lg:flex-row lg:justify-between lg:items-center items-start invisible">
           <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
             <img
               src={beat}
@@ -264,7 +264,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
         {/* MI Store CLONE */}
 
         <div className="container lg:space-x-2 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center items-start invisible">
