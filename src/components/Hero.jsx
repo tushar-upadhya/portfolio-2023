@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import profilePhoto from "../assets/images/tushar.png";
 import Tooltip from "@mui/material/Tooltip";
 import { Fade } from "@mui/material";
