@@ -4,17 +4,17 @@ import TechStack from "./components/TechStack";
 import Footer from "./components/Footer";
 
 function App() {
-    return (
-        <>
-            <Hero />
+  return (
+    <>
+      <Hero />
 
-            <Projects />
+      <Projects />
 
-            <TechStack />
+      <TechStack />
 
-            <Footer />
-        </>
-    );
+      <Footer />
+    </>
+  );
 }
 
 export default App;
