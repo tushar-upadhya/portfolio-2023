@@ -8,7 +8,7 @@ import gmail from "../assets/images/icon/footer-icon/google.png";
 
 import cv from "../assets/images/icon/pdf.png";
 
-import resume from "../assets/resume/tusharupadhyay_resume.pdf";
+import resume from "../assets/resume/tushar_upadhyay_resume.pdf";
 
 const Footer = () => {
   useEffect(() => {
@@ -58,18 +58,18 @@ const Footer = () => {
   });
 
   return (
-    <div className="h-screen w-full pt-16 sm:pt-40 pb:10 xl:px-44 lg:px-36 md:px-32 sm:px-24 vvs:px-12 px-10 flex justify-between flex-col">
+    <div className="flex flex-col justify-between w-full h-screen px-10 pt-16 sm:pt-40 pb:10 xl:px-44 lg:px-36 md:px-32 sm:px-24 vvs:px-12">
       <div className="text">
         <h1 className="text-white font-Glimer-Heavy font-extrabold vvs:text-[3.1rem] sm:text-[3rem] md:text-[3.4rem] lg:text-[4.9rem] xl:text-[6.1rem] 1/2xl:text-[6.2rem] 2xl:text-[8rem]  text-[2.9rem] leading-[3.5rem] sm:leading-[3.5rem] md:leading-[4rem] lg:leading-[5rem] xl:leading-[6.5rem] 2xl:leading-[7rem]  cursor-default">
           Interested ?<span className="block">Let's Get In Touch !</span>
         </h1>
 
-        <p className="text-white/50  cursor-default font-Glimer-Light sm:mt-10 mt-8 xl:text-xl xl:max-w-2xl text-base sm:text-lg  1/2xl:text-2xl 1/2xl:max-w-4xl 2xl:text-3xl 2xl:max-w-5xl leading-6">
+        <p className="mt-8 text-base leading-6 cursor-default text-white/50 font-Glimer-Light sm:mt-10 xl:text-xl xl:max-w-2xl sm:text-lg 1/2xl:text-2xl 1/2xl:max-w-4xl 2xl:text-3xl 2xl:max-w-5xl">
           I'm active on{" "}
           <a
             href="https://www.linkedin.com/in/tusharupadhya/"
             target="_blank"
-            className="text-white font-Glimer-Medium  hover:underline"
+            className="text-white font-Glimer-Medium hover:underline"
             rel="noreferrer"
           >
             Linkedin
@@ -79,7 +79,7 @@ const Footer = () => {
           <a
             href="https://medium.com/@tusharupadhyay0405"
             target="_blank"
-            className="text-white font-Glimer-Medium  hover:underline"
+            className="text-white font-Glimer-Medium hover:underline"
             rel="noreferrer"
           >
             Medium
@@ -98,52 +98,52 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="flex flex-col gap-y-6 mb-5 w-full items-center justify-center">
-        <div className="divide-x divide-solid grid grid-cols-4 w-full">
+      <div className="flex flex-col items-center justify-center w-full mb-5 gap-y-6">
+        <div className="grid w-full grid-cols-4 divide-x divide-solid">
           <a
             href="https://www.linkedin.com/in/tushar-upadhyay-54029b135/"
             target="_blank"
-            className="flex items-center justify-center flex-col text-lg text-white"
+            className="flex flex-col items-center justify-center text-lg text-white"
             rel="noreferrer"
           >
             <img
               src={linkedin}
-              className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
+              className="w-10 h-10 transition duration-200 ease-in-out cursor-pointer sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1"
             />
           </a>
 
           <a
             href="https://github.com/tushar-upadhya"
             target="_blank"
-            className="flex items-center justify-center flex-col text-lg text-white"
+            className="flex flex-col items-center justify-center text-lg text-white"
             rel="noreferrer"
           >
             <img
               src={github}
-              className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
+              className="w-10 h-10 transition duration-200 ease-in-out cursor-pointer sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1"
             />
           </a>
 
           <a
             href="https://medium.com/@tusharupadhyay0405"
             target="_blank"
-            className="flex items-center justify-center flex-col text-lg text-white"
+            className="flex flex-col items-center justify-center text-lg text-white"
             rel="noreferrer"
           >
             <img
               src={medium}
-              className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
+              className="w-10 h-10 transition duration-200 ease-in-out cursor-pointer sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1"
             />
           </a>
           <a
             href="mailto:tusharupadhyay691@gmail.com"
             target="_blank"
-            className="flex items-center justify-center flex-col text-lg text-white"
+            className="flex flex-col items-center justify-center text-lg text-white"
             rel="noreferrer"
           >
             <img
               src={gmail}
-              className="h-10 w-10 sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1 transition duration-200 ease-in-out cursor-pointer"
+              className="w-10 h-10 transition duration-200 ease-in-out cursor-pointer sm:h-8 sm:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 hover:-translate-y-1"
             />
           </a>
         </div>
