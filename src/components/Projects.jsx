@@ -140,6 +140,7 @@ const Projects = () => {
                   />
                 </a>
               </div>
+
               <div className="liveDemo-btn">
                 <a
                   className="icon"
@@ -155,6 +156,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
           <div className="lg:h-[400px] 2xl:h-[500px] h-[250px] sm:h-[300px] md:h-[350px] w-full relative overflow-hidden img-wrapper">
             <img
               src={gita}
@@ -181,11 +183,13 @@ const Projects = () => {
                 <span>Writer Pro</span>
               </div>
             </h1>
+
             <p className="text-sm font-normal cursor-default font-Glimer-Light text-white/90 xl:text-2xl sm:text-xl 2xl:text-3xl vvs:text-base lg:text-right">
               You can see letter count, word count, line count, and text memory
               size in Statistics section. You can also set text size according
               to your requirement and of your choice.
             </p>
+
             <div className="flex items-center justify-start space-x-6 btn-row lg:justify-end">
               <div className="github-btn">
                 <a
@@ -199,6 +203,7 @@ const Projects = () => {
                   />
                 </a>
               </div>
+
               <div className="liveDemo-btn">
                 <a
                   className="icon"
