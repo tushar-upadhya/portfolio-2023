@@ -1,40 +1,50 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: ["class"],
+  content: [
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
+  ],
+  prefix: "",
   theme: {
+    container: {
+      center: true,
+      padding: "15px",
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "960px",
+      xl: "1200px",
+    },
+    fontFamily: {
+      primary: "var(--font-jetBrainsMono)",
+    },
     extend: {
-      fontFamily: {
-        "Glimer-Outlined": ["Glimer-Outlined", "sans-serif"],
-        "Glimer-Bold": ["Glimer-Bold", "sans-serif"],
-        "Glimer-Heavy": ["Glimer-Heavy", "sans-serif"],
-        "Glimer-Light": ["Glimer-Light", "sans-serif"],
-        "Glimer-Medium": ["Glimer-Medium", "sans-serif"],
-        "Glimer-Regular": ["Glimer-Regular", "sans-serif"],
-      },
-
-      boxShadow: {
-        custom1: "rgba(0, 0, 0, 0.25) 0px 5px 15px",
+      colors: {
+        primary: "#1c1c22",
+        accent: {
+          DEFAULT: "#00ff99",
+          hover: "#00e187",
+        },
       },
       keyframes: {
-        float: {
-          "0%": { transform: "translate(0,  0px)" },
-          "50% ": { transform: "translate(0, 15px)" },
-          "100%": { transform: "translate(0, -0px)" },
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
-        float: "float 2s ease-in-out infinite",
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
-    screens: {
-      vvs: "393px",
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
-      "1/2xl": "1366px",
-      "1xl": "1440px",
-      "2xl": "1536px",
-    },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
