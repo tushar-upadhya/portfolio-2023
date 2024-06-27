@@ -15,7 +15,7 @@ export default function Home() {
           <div className="order-2 text-center xl:text-left xl:order-none ">
             <span className="text-xl">Frontend Developer</span>
             <h1 className="mb-6 h1">
-              Hello I'm <br />{" "}
+              Hello I&#39;m <br />{" "}
               <span className="text-accent">Tushar Upadhyay</span>
             </h1>
 
